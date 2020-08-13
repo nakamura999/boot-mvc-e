@@ -26,7 +26,7 @@
 
 					<div class="form-group">
 						<label for="contact" th:text="#{contact}"></label>
-						<textarea class="formcontrol" rows="3" th:errorclass="isinvalid" th:field="*{contact}"></textarea>
+						<textarea class="form-control" rows="3" th:errorclass="is-invalid" th:field="*{contact}"></textarea>
 						<div class="invaild-feedback" th:errors="*{contact}"></div>
 					</div>
 					
